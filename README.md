@@ -13,7 +13,6 @@
 - [Unity](https://gist.github.com/Pierry/49a54039fd7664263bd5) - Dependency Injection container (Web API, Owin, MVC)
 - [Repository Pattern](https://gist.github.com/Pierry/b6ba424f3425305e4a6f) - Class base
 - [AutoMapper Config](https://gist.github.com/Pierry/a0ca1ca54a7b63cf2104) - Implementation example
-- [ Config](https://gist.github.com/Pierry/b5eea368e9452e69279a) - Implementation example
 
 # Emmet (Zen Coding)
 - [Operator ()](https://gist.github.com/Pierry/6784915)
