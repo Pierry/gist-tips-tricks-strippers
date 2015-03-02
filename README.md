@@ -5,6 +5,7 @@
 - [Android Annotations](https://gist.github.com/Pierry/b3eab411c8865573b985) - Root and app buidle.gradle example
 - [KSoap](https://gist.github.com/Pierry/7614007) - Basic class example
 - [Font](https://gist.github.com/Pierry/5705640) - Change font family programmatically
+- [AssertionConcern Java](https://gist.github.com/Pierry/943eaf507e3184a826ca) - Validation values
 
 
 # ASP.NET
