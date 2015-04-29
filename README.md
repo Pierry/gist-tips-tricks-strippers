@@ -6,6 +6,7 @@
 - [KSoap](https://gist.github.com/Pierry/7614007) - Basic class example
 - [Font](https://gist.github.com/Pierry/5705640) - Change font family programmatically
 - [AssertionConcern Java](https://gist.github.com/Pierry/943eaf507e3184a826ca) - Validation values
+- [JitPack Config](https://gist.github.com/Pierry/86c70b3a084c1e451488) - JitPack basic config
 
 
 # ASP.NET
