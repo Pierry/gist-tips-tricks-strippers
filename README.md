@@ -62,7 +62,7 @@ Você tem uma funcionalidade para desenvolver, qual o passo a passo?
         git checkout -b hmg-my-fix
         git rebase master
 6.	Caso você trabalhe com outros desenvolvedores, apenas faça o merge do master: git merge master
-7.	Ao terminar, publique sua branch e abra um PR para code review: git push -u origin my-fix
+7.	Ao terminar, publique sua branch e abra um PR (Pull-Request)  para code review: git push -u origin my-fix
 
 ### Nomeação de branches
 
