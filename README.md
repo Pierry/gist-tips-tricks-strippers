@@ -69,7 +69,7 @@ Você tem uma funcionalidade para desenvolver, qual o passo a passo?
 Utilizar sempre -(dash) na separação das palavras.
 O nome da sua branch deve refletir o seu conteúdo, não deixando de ser breve
 Exemplos válidos: notifications, fix-user-email, elasticsearch-experiments, better-errors
-Exemplos inválidos: fix_notifiacoes, correcao-de_usuarios, fix_everything
+Exemplos inválidos: fix_notificacoes, correcao-de_usuarios, fix_everything
 
 ### Commits
 
