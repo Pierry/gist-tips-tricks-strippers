@@ -41,3 +41,51 @@ git bash
 - s - split the current hunk into smaller hunks
 - e - manually edit the current hunk
 - ? - print help
+
+
+Github Flow
+======================
+
+Há um branch master que é sempre deployável, tudo que está nesse branch já foi validado e está pronto para ir pra produção. As funcionalidades são desenvolvidas em feature branches, que são derivadas do master. As features branches podem conter múltiplos niveis de detalhamento, isso é recomendado caso mais de um desenvolvedor trabalhe na funcionalidade
+
+### Passo a passo
+
+Você tem uma funcionalidade para desenvolver, qual o passo a passo?
+
+1.	Vá para o master e atualize o seu repositório local: git pull --rebase master
+2.	Crie uma branch do master: git checkout -b hmg-my-fix (veja o padrão para nomeamento das branches logo abaixo)
+3.	Faça o desenvolvimento, crie commits pequenos e concisos
+4.	Atualize sua branch com o master todos os dias:
+5.	Caso você trabalhe sozinho na branch, faça o rebase com o master:
+        git checkout master
+        git pull --rebase
+        git checkout -b hmg-my-fix
+        git rebase master
+6.	Caso você trabalhe com outros desenvolvedores, apenas faça o merge do master: git merge master
+7.	Ao terminar, publique sua branch e abra um PR para code review: git push -u origin my-fix
+
+### Nomeação de branches
+
+Utilizar sempre -(dash) na separação das palavras.
+O nome da sua branch deve refletir o seu conteúdo, não deixando de ser breve
+Exemplos válidos: notifications, fix-user-email, elasticsearch-experiments, better-errors
+Exemplos inválidos: fix_notifiacoes, correcao-de_usuarios, fix_everything
+
+### Commits
+
+Os commits devem ser pacotes de modificações no código com poucos objetivos, portanto, deve-se sempre criar commits menores e mais descritivos.
+
+### Dicas para um bom commit:
+
+- O título do seu commit deve ser um sumário do que aquele commit está resolvendo
+- Tente manter o título do commit em menos de 50 caracteres
+- Sempre que possível, escreva uma descrição mais detalhada do seu commit
+
+### Dicas gerais para utilizar o git
+
+- Use o git bash
+- Quando for criar um commit, utilize o comando git add -p para revisar tudo que irá entrar no commit, evite utilizar o git add .
+- Utilize sempre do comando git commit -v para abrir um editor com as mudanças e para você poder descrever melhor o seu commit
+- Nunca utilize git rebase em um branch que já está público e que há outro desenvolvedor trabalhando, isso vai causar um conflito muito chato
+- Caso você tenha cometido algum erro ao manipular o git, não se desespere, tente utilizar o git reflog
+
