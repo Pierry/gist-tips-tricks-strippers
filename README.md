@@ -89,3 +89,12 @@ Os commits devem ser pacotes de modificações no código com poucos objetivos, 
 - Nunca utilize git rebase em um branch que já está público e que há outro desenvolvedor trabalhando, isso vai causar um conflito muito chato
 - Caso você tenha cometido algum erro ao manipular o git, não se desespere, tente utilizar o git reflog
 
+
+
+getApplicationContext() Application context is associated with the Applicaition and will always be the same throughout the life cycle.
+
+getBasecontext() should not be used, just use Context instead of it which is associated with the activity and could possible be destroyed when the activity is destroyed.
+
+getApplication() is available to Activity and Services only. Although in current Android Activity and Service implementations, getApplication() and getApplicationContext() return the same object, there is no guarantee that this will always be the case (for example, in a specific vendor implementation). So if you want the Application class you registered in the Manifest, you should never call getApplicationContext() and cast it to your application, because it may not be the application instance (which you obviously experienced with the test framework).
+
+getParent() returns object of the activity if the current view is a child..In other words returns the activity object hosting the child view when called within the child.
