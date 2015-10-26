@@ -10,10 +10,11 @@ Contributing
 Quick
 =========================
 
-1.	Gist
-2.	Tips
-3.	Tricks
-4.	Strippers
+1.	[Gist](https://github.com/Pierry/gist-tips-tricks-strippers#gist)
+2.	[Tips](https://github.com/Pierry/gist-tips-tricks-strippers#tips)
+3.	[Tricks](https://github.com/Pierry/gist-tips-tricks-strippers#tricks)
+4.	[Strippers](https://github.com/Pierry/gist-tips-tricks-strippers#strippers)
+4.	[License](https://github.com/Pierry/gist-tips-tricks-strippers#strippers)
 
 Gist
 ==========================
