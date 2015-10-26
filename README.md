@@ -1,4 +1,24 @@
-# Android
+Contributing
+==========================
+
+1.	Fork it
+2.	Create your feature branch (git checkout -b my-new-feature)
+3.	Commit your changes (git commit -am 'Add some feature')
+3.	Push to the branch (git push origin my-new-feature)
+4.	Create a new Pull Request
+
+Quick
+=========================
+
+1.	Gist
+2.	Tips
+3.	Tricks
+4.	Strippers
+
+Gist
+==========================
+
+### android
 - [Load Image](https://gist.github.com/Pierry/efe85c7a3ca3ef47cd9d) - Load image from path to ImageView
 - [Colors resource](https://gist.github.com/Pierry/bd31cf7ab71225a963a9) - List of colors
 - [IsConnected](https://gist.github.com/Pierry/48951570b23c42087112) - Verify connection state
@@ -9,19 +29,28 @@
 - [JitPack Config](https://gist.github.com/Pierry/86c70b3a084c1e451488) - JitPack basic config
 
 
-# ASP.NET
+### asp.net
 - [AssertionConcern](https://gist.github.com/Pierry/1ebff90f088c1455453b) - Validation values
 - [WebApiConfig](https://gist.github.com/Pierry/b5eea368e9452e69279a) - Basic Json formatters
 - [Unity](https://gist.github.com/Pierry/49a54039fd7664263bd5) - Dependency Injection container (Web API, Owin, MVC)
 - [Repository Pattern](https://gist.github.com/Pierry/b6ba424f3425305e4a6f) - Class base
 - [AutoMapper Config](https://gist.github.com/Pierry/a0ca1ca54a7b63cf2104) - Implementation example
 
-# Emmet (Zen Coding)
-- [Operator ()](https://gist.github.com/Pierry/6784915)
-- [Operator *](https://gist.github.com/Pierry/6784899)
-- [Operator ^](https://gist.github.com/Pierry/6784887)
-- [Operator +](https://gist.github.com/Pierry/6784875)
-- [Operator >](https://gist.github.com/Pierry/6784867)
+
+Tips
+==========================
+
+Tricks
+==========================
+
+Strippers
+==========================
+
+Credits
+==========================
+
+License
+==========================
 
 git bash
 ======================
