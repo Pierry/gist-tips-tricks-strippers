@@ -44,11 +44,18 @@ Tips
 Tricks
 ==========================
 
+### android
+- [Use java-code-styles by Square](https://github.com/square/java-code-styles)
+- [Use Ion for image loading](https://github.com/koush/ion)
+
 Strippers
 ==========================
 
 Credits
 ==========================
+
+Pierry Borges - [@Pierry](https://github.com/Pierry) - [@pierrydev](https://twitter.com/pierrydev)
+
 
 License
 ==========================
