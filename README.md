@@ -41,6 +41,17 @@ Gist
 Tips
 ==========================
 
+### team apps
+- Slack 
+- Flock
+- InvisionApp
+- Postman
+- Trello / Waffle
+- Toggl / Timeneye
+- Prose
+- Fabric
+- Skype / Hangouts
+
 Tricks
 ==========================
 
