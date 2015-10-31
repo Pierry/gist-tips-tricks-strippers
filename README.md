@@ -49,8 +49,11 @@ Tips
 - Trello / Waffle
 - Toggl / Timeneye
 - Prose
+- GCM, Parse
+- Azure, AWS, Heroku
 - Fabric
-- Skype / Hangouts
+- Comunicação: Skype / Hangouts
+- Versionamento: GitHub / GitLab / BitBucket
 
 Tricks
 ==========================
