@@ -103,17 +103,24 @@ Há um branch master que é sempre deployável, tudo que está nesse branch já 
 
 Você tem uma funcionalidade para desenvolver, qual o passo a passo?
 
-1.	Vá para o master e atualize o seu repositório local: git pull --rebase master
-2.	Crie uma branch do master: git checkout -b hmg-my-fix (veja o padrão para nomeamento das branches logo abaixo)
-3.	Faça o desenvolvimento, crie commits pequenos e concisos
-4.	Atualize sua branch com o master todos os dias:
-5.	Caso você trabalhe sozinho na branch, faça o rebase com o master:
+1.      O [Gitflow] (http://nvie.com/posts/a-successful-git-branching-model/) apresenta um fluxo de trabalho amplamente utilizado e bastante organizado:
+2.      Nunca crie branches a partir do master, pois este é o branch de produção. Ao invés disso, crie um outro branch nomeado de develop que será o branch raíz dos demais branches (exceto hotfixes): git checkout -b develop.
+3.      Para cada nova feature do seu software, crie um novo branch a partir do master: git checkout -b data-visualization (veja o padrão para nomeamento das branches logo abaixo).
+4.      Caso você esteja corrigindo algum erro, crie um outro branch a partir do branch master: git checkout -b hotfix-issue#1 master . Em seguida corrija-o e faça um merge com o master: 
+        git commit -m "Hotfix login"
+        git checkout master
+        git merge hotfix-issue#1
+        
+5.      Se você está liberando uma nova release do seu software, crie outro branch a partir do master com o nome da release (caso seja necessário realizar alterações, realiza-as): git checkout -b release-0.1 develop
+6.      Faça o desenvolvimento, crie commits pequenos e concisos
+7.      Atualize sua branch com o master e develop todos os dias:
+8.	Caso você trabalhe sozinho na branch, faça o rebase com o develop:
         git checkout master
         git pull --rebase
         git checkout -b hmg-my-fix
         git rebase master
-6.	Caso você trabalhe com outros desenvolvedores, apenas faça o merge do master: git merge master
-7.	Ao terminar, publique sua branch e abra um PR (Pull-Request)  para code review: git push -u origin my-fix
+9.	Caso você trabalhe com outros desenvolvedores, apenas faça o merge do master: git merge master
+10.	Ao terminar, publique sua branch e abra um PR (Pull-Request)  para code review: git push -u origin my-fix
 
 ### Nomeação de branches
 
