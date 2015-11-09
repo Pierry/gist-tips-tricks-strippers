@@ -42,7 +42,7 @@ Tips
 ==========================
 
 ### team apps
-- Slack 
+- Slack / BaseCamp
 - Flock
 - InvisionApp
 - Postman
