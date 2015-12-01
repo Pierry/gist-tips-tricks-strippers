@@ -55,12 +55,24 @@ Tips
 - Comunicação: Skype / Hangouts
 - Versionamento: GitHub / GitLab / BitBucket
 
+### learning sources
+- [edX](https://www.edx.org/)
+- [Pluralsight](www.pluralsight.com/courses/)
+- [CodeCrunch](https://codecrunch.comp.nus.edu.sg/)
+- [Udemy](https://www.udemy.com/)
+- [Codecademy](https://www.codecademy.com/pt)
+- [Harvard Online Learning](http://online-learning.harvard.edu/)
+
 Tricks
 ==========================
 
 ### android
 - [Use java-code-styles by Square](https://github.com/square/java-code-styles)
 - [Use Ion for image loading](https://github.com/koush/ion)
+
+### JavaScript, HTML, CSS
+- __Always search before you develop anything__
+- You can search mostly on [CodePen.io](http://codepen.io/), or [Plunker](http://plnkr.co/), plus there's [JsFiddle](https://jsfiddle.net/)
 
 Strippers
 ==========================
@@ -70,6 +82,7 @@ Credits
 
 Pierry Borges - [@Pierry](https://github.com/Pierry) - [@pierrydev](https://twitter.com/pierrydev)
 
+Felipe Appio - [@felipexw](https://github.com/felipexw) 
 
 License
 ==========================
