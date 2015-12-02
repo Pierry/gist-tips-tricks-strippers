@@ -57,6 +57,7 @@ Tips
 
 ### learning sources
 - [edX](https://www.edx.org/)
+- [egghead.io](https://egghead.io/)
 - [Pluralsight](www.pluralsight.com/courses/)
 - [CodeCrunch](https://codecrunch.comp.nus.edu.sg/)
 - [Udemy](https://www.udemy.com/)
