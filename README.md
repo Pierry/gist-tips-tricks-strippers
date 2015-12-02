@@ -62,6 +62,7 @@ Tips
 - [Udemy](https://www.udemy.com/)
 - [Codecademy](https://www.codecademy.com/pt)
 - [Harvard Online Learning](http://online-learning.harvard.edu/)
+- [dev-podcast-list-brazil](https://github.com/ogilvieira/dev-podcast-list-brazil)
 
 Tricks
 ==========================
