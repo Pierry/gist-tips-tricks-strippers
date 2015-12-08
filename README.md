@@ -75,6 +75,7 @@ Tricks
 ### JavaScript, HTML, CSS
 - __Always search before you develop anything__
 - You can search mostly on [CodePen.io](http://codepen.io/), or [Plunker](http://plnkr.co/), plus there's [JsFiddle](https://jsfiddle.net/)
+- If you're developing something using AngularJs, then [__you should read this rep style guide__](https://github.com/johnpapa/angular-styleguide)
 
 Strippers
 ==========================
