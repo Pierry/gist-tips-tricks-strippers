@@ -1,19 +1,19 @@
 Navigate
 ======
 
-h - left
-j - down
-k - up
-l - right 
+- h - Left
+- j - Down
+- k - Up
+- l - Right 
 
 % - jump to [] or ()
 
 Words
 ====
 
-w - next word
-e - end of word
-b - word init
+- w - Next
+- e - End
+- b - Begin
 
 [number] - command 
 ex: 4 w = next word 4 times
@@ -24,11 +24,14 @@ Multi caract
 number - i - sentece - esc
 4 - i - go - esc = gogogogo
 
-0 - start of line
-$ - end of line
+Lines
+======
+
+0 - Start
+$ - End
 
 Find
 ===
 
-* - find next word under the cursor
-# - find previous word under the cursor 
+- * - Find next word under the cursor
+- # - Find previous word under the cursor 
